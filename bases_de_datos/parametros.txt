@@ -1,1 +1,57 @@
-instrucciones
+################################## GROCERY ####################################
+opcion 1 grocery
+
+lon_min = 2 # Número mínimo de productos a considerar en las reglas
+
+veces_minimas_aparece_en_lista=2
+soporte_min = veces_minimas_aparece_en_lista / len(df_data)
+
+#soporte_min =0.01
+confianza_min =0.5
+sustento_min =1.5
+
+****************opcion 2 grocery**************************
+
+lon_min = 2 # Número mínimo de productos a considerar en las reglas
+
+veces_minimas_aparece_en_lista=3
+soporte_min = veces_minimas_aparece_en_lista / len(df_data)
+
+#soporte_min =0.01
+confianza_min =0.2
+sustento_min =1.7
+***************************************************************
+opcion 3 grocey
+
+lon_min = 2 # Número mínimo de productos a considerar en las reglas
+
+veces_minimas_aparece_en_lista=3
+soporte_min = veces_minimas_aparece_en_lista / len(df_data)
+
+#soporte_min =0.01
+confianza_min =0.2
+sustento_min =1.5
+
+################################## AMAZON ####################################
+
+opcion 1
+
+lon_min = 2 # Número mínimo de productos a considerar en las reglas
+
+veces_minimas_aparece_en_lista=4
+soporte_min = veces_minimas_aparece_en_lista / len(df_data)
+
+#soporte_min =0.01
+confianza_min =0.5
+sustento_min =1.5
+
+opcion 2
+
+lon_min = 2 # Número mínimo de productos a considerar en las reglas
+
+veces_minimas_aparece_en_lista=5
+soporte_min = veces_minimas_aparece_en_lista / len(df_data)
+
+#soporte_min =0.01
+confianza_min =0.5
+sustento_min =1.5
